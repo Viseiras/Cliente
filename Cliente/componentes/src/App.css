@@ -30,3 +30,24 @@
   grid-template-columns:repeat(4,1fr);
   gap: 1rem;
 }
+
+.etiquetas-extra span{
+  padding: 2px 8px;
+  border-radius: 999px;
+  border: 1px dotted black;
+  font-weight: 700;
+}
+
+.etiqueta-rol,.etiqueta-vip{
+  background-color: aliceblue;
+}
+
+.etiqueta-vip{
+  background-color: goldenrod;
+  color:darkred;
+}
+
+.etiquetas-extra{
+  display: flex;
+  justify-content: space-evenly;
+}
