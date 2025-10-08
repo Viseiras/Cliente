@@ -5,20 +5,15 @@
  * ----------------------------
  * PROGRAMA QUE MUESTRA LAS TABLAS DE MULTIPLICAR
  * ----------------------------
- * DOCUMENTACION
- * Ejercicio 2 - Multiplicando
-Genera una función que imprima por consola las tablas de multiplicar de los números que van
-desde el indicado como parámetro (entero positivo mayor a dos) hasta dos. Para ello recibe
-dos parámetros: un número y una función.
-• La función pasada como parámetro será la que calcule la tabla de multiplicar. Habrá
-que diseñar primero esa función y luego pasarla como parámetro. Esta función recibe
-un número como parámetro e imprime su tabla de multiplicar (debidamente
-formateada).
-• Por ejemplo, si se ejecuta tablas(5, multiplicar) imprimirá por consola las tablas del dps.
-La del tres, la del cuatro y la del cinco, eso sí, debidamente formateadas
+ * 
  */
 
 //FUNCIONES
+/**
+ * Función que al recibir un numero nos imprime por consola de comandos su tabla de multiplicar
+ * 
+ * @param {number} numero - Parametro que nos indica el indice de la tabla que vamos a multiplicar 
+ */
 function mutliplicar(numero) {
     let tabla = `TABLA DE MULTIPLICAR DEL ${numero}\n`;
 
@@ -26,16 +21,34 @@ function mutliplicar(numero) {
         tabla += `${numero} x ${i} = ${numero * i}\n`;
     }
 
+    tabla+="\n";
+
     console.log(tabla);
 }
 
+/**
+ * Función que recibe un método o función y un numero para ejecutar varias veces la función con numeros descendientes
+ * 
+ * @param {number} numero - Parametro que nos indica por que numero empezaremos
+ * @param {Function} funcion - Función que se usará para escribir las tablas
+ */
 function tablas(numero, funcion) {
-    funcion(numero);
+    if(numero<2){
+        funcion(numero);
+    }else{
+        for(let i=1;i<=numero;i++){
+            funcion(i);
+        }
+    }
 
 }
 
 // MAIN
+//Ejemplo con 1 
 tablas(1, mutliplicar);
-
+//Ejemplo con 5
+tablas(5, mutliplicar);
+//Ejemplo con 10
+tablas(10, mutliplicar);
 
 //FIN
