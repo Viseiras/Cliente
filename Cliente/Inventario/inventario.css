@@ -1,0 +1,53 @@
+    body{
+        font-family:system-ui,Arial,sans-serif;margin:20px
+    }
+    h1{
+        margin:0 0 10px
+    }
+
+    .fila{
+        display:grid;
+        grid-template-columns:1fr 1fr;
+        gap:16px;
+        margin-top:16px
+    }
+
+    section{
+        border:1px solid #ddd;
+        border-radius:8px;
+        padding:10px
+    }
+
+    section h2{
+        margin:0 0 8px
+    }
+    #formulario{
+        display:grid;
+        grid-template-columns:1fr 160px 1fr 120px;
+        gap:8px
+    }
+
+    input,button{
+        padding:8px;
+        border:1px solid #ccc;
+        border-radius:6px;
+        font:inherit
+    }
+    button,input[type=button]{
+        cursor:pointer
+    }
+    .elemento{
+        border:1px solid #eee;
+        border-radius:6px;
+        padding:8px;
+        margin:6px 0;
+        display:flex;
+        justify-content:space-between;
+        align-items:center
+    }
+    .prestado{
+        opacity:.8
+    }
+    .botones input{
+        margin-left:6px
+    }

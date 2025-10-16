@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Inventario simple</title>
+  <link rel="stylesheet" href="inventario.css">
+</head>
+<body>
+  <h1>Inventario simple</h1>
+
+  <!-- Alta de material -->
+  <div id="formulario">
+    <input id="nombre" placeholder="Nombre (p.ej. Multímetro)">
+    <select id="categoria">
+      <option value="">Categoría…</option>
+      <option>Herramienta</option>
+      <option>Instrumentación</option>
+      <option>Componente</option>
+      <option>Seguridad</option>
+    </select>
+    <input id="nota" placeholder="Nota (opcional)">
+    <button onclick="anadir()">Añadir</button>
+  </div>
+
+  <div class="fila">
+    <section>
+      <h2>Disponibles</h2>
+      <div id="disponibles"></div>
+    </section>
+    <section>
+      <h2>Prestados</h2>
+      <div id="prestados"></div>
+    </section>
+  </div>
+
+  <script src="inventario.js"></script>
+</body>
+</html>
