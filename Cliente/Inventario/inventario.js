@@ -70,6 +70,10 @@ function moverDevuelto(id){
     disponibles.append(elemento);
 }
 
+/**
+ * Función que elimina los productos de la lista con un pop up que confirma que lo queramos eliminar
+ * @param {number} id 
+ */
 function archivar(id){
     const confirmar = confirm("¿Estás seguro de que quieres eliminar este producto?");
 
