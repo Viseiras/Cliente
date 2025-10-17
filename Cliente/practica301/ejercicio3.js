@@ -1,12 +1,16 @@
 'use strict';
-
+/**
+ * Tabla dinámica DOM
+ * -------------------------------
+ * PROGRAMA QUE CREA UNA TABLA CON CELDAS CREADAS DINAMICAMENTE QUE DEJA CANIAR
+ * -------------------------------
+ */
 // CONSTANTES GLOBALES
 const botonAnyadir = document.getElementsByTagName("button")[0];
 const input = document.getElementById("texto");
 const tbody = document.getElementById("bodyTabla");
 var contador = 0;
 // FUNCIONES
-
 // Función que transforma el texto al "estilo cani"
 function toCani(id){
 

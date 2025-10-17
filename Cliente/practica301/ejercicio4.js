@@ -1,5 +1,10 @@
 'use strict';
-
+/**
+ * Creando funciones DOM
+ * -----------------------------------
+ * PROGRAMA QUE CREA UNA FUNCIÓN INSERT AFTER
+ * -----------------------------------
+ */
 // FUNCIONES
 /**
  * Función que inserta un elemento del DOM justo después del elemento seleccionado
