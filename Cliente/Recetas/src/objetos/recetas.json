@@ -1,0 +1,186 @@
+{
+  "recetas": [
+    {
+      "id": 1,
+      "nombre": "Tarta de Queso Cremosa",
+      "imagen": "https://i.blogs.es/6ad7a5/tarta-de-queso-philadelphia2/450_1000.jpg",
+      "tiempoPreparacion": "45 minutos",
+      "dificultad": "Media",
+      "ingredientes": [
+        "200g de galletas",
+        "100g de mantequilla derretida",
+        "500g de queso crema (tipo Philadelphia)",
+        "200ml de nata (crema de leche)",
+        "150g de azúcar",
+        "3 huevos"
+      ],
+      "utensilios": [
+        { "id": 101, "nombre": "Molde desmontable" },
+        { "id": 102, "nombre": "Batidora eléctrica" },
+        { "id": 103, "nombre": "Cuenco grande" }
+      ],
+      "preparacionCompleta": "Precalentar el horno a 180°C. Triturar las galletas y mezclarlas con la mantequilla. Cubrir el fondo del molde. Aparte, batir el queso crema con el azúcar, la nata y los huevos hasta obtener una mezcla homogénea. Verter la mezcla sobre la base de galletas y hornear durante 40 minutos. Dejar enfriar completamente antes de desmoldar."
+    },
+    {
+      "id": 2,
+      "nombre": "Gazpacho Andaluz",
+      "imagen": "https://img2.rtve.es/v/5912010?w=1600&preview=1621621774172.jpg",
+      "tiempoPreparacion": "15 minutos",
+      "dificultad": "Baja",
+      "ingredientes": [
+        "1 kg de tomates maduros",
+        "1 pimiento verde italiano",
+        "1 pepino",
+        "1 diente de ajo",
+        "50 ml de aceite de oliva virgen extra",
+        "30 ml de vinagre de Jerez",
+        "Sal al gusto"
+      ],
+      "utensilios": [
+        { "id": 201, "nombre": "Batidora o robot de cocina" },
+        { "id": 202, "nombre": "Colador fino" },
+        { "id": 203, "nombre": "Cuenco grande" }
+      ],
+      "preparacionCompleta": "Lavar y trocear todas las verduras. Introducirlas en la batidora con el aceite, vinagre y sal. Triturar bien hasta conseguir una mezcla homogénea. Pasar por un colador para eliminar pieles y semillas. Dejar enfriar en el frigorífico antes de servir."
+    },
+    {
+      "id": 3,
+      "nombre": "Lasaña Clásica de Carne",
+      "imagen": "https://newmansown.com/wp-content/uploads/2022/03/Homemade-lasagna-1200x900.png",
+      "tiempoPreparacion": "90 minutos",
+      "dificultad": "Media-Alta",
+      "ingredientes": [
+        "12 láminas de pasta de lasaña",
+        "500g de carne picada",
+        "1 cebolla",
+        "Salsa de tomate",
+        "50g de mantequilla",
+        "50g de harina",
+        "1 litro de leche"
+      ],
+      "utensilios": [
+        { "id": 301, "nombre": "Fuente de horno" },
+        { "id": 302, "nombre": "Cazuela" },
+        { "id": 303, "nombre": "Espátula de madera" }
+      ],
+      "preparacionCompleta": "Preparar la salsa boloñesa sofriendo la carne y la cebolla con la salsa de tomate. Preparar la bechamel derritiendo la mantequilla, añadiendo la harina y después la leche. Montar la lasaña en la fuente alternando capas de pasta, boloñesa y bechamel. Terminar con queso rallado y hornear a 200°C hasta que esté dorada."
+    },
+    {
+      "id": 4,
+      "nombre": "Crepes de Chocolate y Naranja",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCJkfxeceu48KcfdpVB5C1euKmlHjE8RtPyg&s",
+      "tiempoPreparacion": "30 minutos",
+      "dificultad": "Baja",
+      "ingredientes": [
+        "250g de harina",
+        "500ml de leche",
+        "3 huevos",
+        "50g de azúcar",
+        "Mantequilla para la sartén",
+        "Ralladura de naranja y chocolate"
+      ],
+      "utensilios": [
+        { "id": 401, "nombre": "Sartén para crepes" },
+        { "id": 402, "nombre": "Varillas o batidora manual" }
+      ],
+      "preparacionCompleta": "Mezclar la harina, el azúcar, los huevos y la leche hasta tener una masa líquida y sin grumos. Dejar reposar 15 minutos. Calentar la sartén con un poco de mantequilla y verter un cucharón de masa, extendiéndola. Cocinar por ambos lados. Rellenar con ralladura de naranja y chocolate fundido."
+    },
+    {
+      "id": 5,
+      "nombre": "Curry de Garbanzos Vegano",
+      "imagen": "https://unionvegetariana.org/wp-content/uploads/2020/10/DSC_0575-scaled.jpg",
+      "tiempoPreparacion": "40 minutos",
+      "dificultad": "Media",
+      "ingredientes": [
+        "400g de garbanzos cocidos",
+        "1 lata de leche de coco",
+        "1 cebolla",
+        "2 dientes de ajo",
+        "Jengibre fresco",
+        "Pasta de curry rojo o amarillo",
+        "Espinacas frescas"
+      ],
+      "utensilios": [
+        { "id": 501, "nombre": "Olla grande o Wok" },
+        { "id": 502, "nombre": "Cuchillo de cocina" }
+      ],
+      "preparacionCompleta": "Sofreír la cebolla, el ajo y el jengibre rallado en el wok. Añadir la pasta de curry y cocinar un minuto. Verter la leche de coco y llevar a ebullición. Añadir los garbanzos y dejar cocer a fuego lento 15 minutos. Incorporar las espinacas al final hasta que se ablanden. Servir con arroz basmati."
+    },
+    {
+      "id": 6,
+      "nombre": "Tortilla de Patatas Tradicional",
+      "imagen": "https://lacocinadefrabisa.lavozdegalicia.es/wp-content/uploads/2019/05/tortilla-espa%C3%B1ola.jpg",
+      "tiempoPreparacion": "40 minutos",
+      "dificultad": "Media",
+      "ingredientes": [
+        "6 huevos grandes",
+        "1 kg de patatas",
+        "1 cebolla (opcional)",
+        "Aceite de oliva virgen extra",
+        "Sal"
+      ],
+      "utensilios": [
+        { "id": 601, "nombre": "Sartén antiadherente" },
+        { "id": 602, "nombre": "Plato para dar la vuelta" }
+      ],
+      "preparacionCompleta": "Pelar y cortar las patatas en láminas finas. Freírlas a fuego lento en abundante aceite, junto con la cebolla si se usa, hasta que estén tiernas. Escurrir bien el aceite. Batir los huevos con sal e incorporar las patatas. Cuajar la mezcla en una sartén con un poco de aceite, dándole la vuelta para que quede dorada por ambos lados."
+    },
+    {
+      "id": 7,
+      "nombre": "Sopa de Miso con Tofu",
+      "imagen": "https://www.conasi.eu/blog/wp-content/uploads/2012/10/sopa-de-miso-1.jpg",
+      "tiempoPreparacion": "15 minutos",
+      "dificultad": "Baja",
+      "ingredientes": [
+        "1 litro de caldo dashi",
+        "3 cucharadas de pasta de miso",
+        "100g de tofu firme",
+        "Algas wakame deshidratadas",
+        "Cebolleta picada"
+      ],
+      "utensilios": [
+        { "id": 701, "nombre": "Cazuela pequeña" },
+        { "id": 702, "nombre": "Cucharón" }
+      ],
+      "preparacionCompleta": "Poner el dashi a calentar en la cazuela. Hidratar las algas. Cortar el tofu en cubos pequeños. Cuando el dashi esté caliente (sin que hierva), disolver la pasta de miso. Añadir el tofu y las algas. Servir inmediatamente espolvoreando la cebolleta picada."
+    },
+    {
+      "id": 8,
+      "nombre": "Pan de Ajo Casero",
+      "imagen": "https://imag.bonviveur.com/pan-de-ajo-foto-cerca.jpg",
+      "tiempoPreparacion": "25 minutos",
+      "dificultad": "Baja",
+      "ingredientes": [
+        "1 barra de pan",
+        "100g de mantequilla sin sal",
+        "4 dientes de ajo",
+        "Perejil fresco picado",
+        "Queso parmesano (opcional)"
+      ],
+      "utensilios": [
+        { "id": 801, "nombre": "Papel de horno" },
+        { "id": 802, "nombre": "Tabla de cortar" }
+      ],
+      "preparacionCompleta": "Ablandar la mantequilla a temperatura ambiente. Picar muy fino los ajos y el perejil. Mezclar el ajo y el perejil con la mantequilla. Cortar el pan en rebanadas sin llegar al final. Untar la mantequilla de ajo entre las rebanadas. Hornear a 180°C durante 10 minutos hasta que el pan esté crujiente."
+    },
+    {
+      "id": 9,
+      "nombre": "Ensalada César con Pollo",
+      "imagen": "https://ariztia.com/wp-content/uploads/2023/11/ensalada-cesar-de-pollo.jpg",
+      "tiempoPreparacion": "20 minutos",
+      "dificultad": "Baja",
+      "ingredientes": [
+        "1 lechuga romana",
+        "200g de pechuga de pollo",
+        "Picatostes",
+        "Queso parmesano rallado",
+        "Salsa César (comercial o casera)"
+      ],
+      "utensilios": [
+        { "id": 901, "nombre": "Sartén para el pollo" },
+        { "id": 902, "nombre": "Cuenco grande para mezclar" }
+      ],
+      "preparacionCompleta": "Lavar y trocear la lechuga. Cocinar la pechuga de pollo y cortarla en tiras. En un cuenco grande, mezclar la lechuga, el pollo, los picatostes y el queso. Aderezar con la salsa César justo antes de servir para evitar que la lechuga se ablande."
+    }
+  ]
+}

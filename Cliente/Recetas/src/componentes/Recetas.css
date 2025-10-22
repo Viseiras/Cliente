@@ -1,0 +1,22 @@
+.recetas-listado {
+  margin: 0 auto; 
+  
+  /* Define el layout de cuadrícula para las tarjetas individuales */
+  display: grid; 
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); 
+  gap: 30px;
+}
+
+.recetas-listado h1 {
+  /* El título del listado debe abarcar todas las columnas y centrarse */
+  grid-column: 1 / -1; 
+  text-align: center;  
+  margin-bottom:20px;
+  font-size: 2.5em;
+  font-weight: 300;
+  color: #a0522d;
+  border-bottom: 2px solid #f4e0c4;
+  /* margin: 0 auto; ya no es necesario si grid-column está en 1 / -1 */
+  width: 100%; /* Asegura que el borde inferior se extienda */
+  padding-bottom: 10px;
+}

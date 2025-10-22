@@ -1,0 +1,106 @@
+/* Componente Receta - Tarjeta Individual */
+.receta-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  overflow: hidden; /* Asegura que la imagen se ajuste al borde */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 25px;
+}
+
+.receta-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.receta-imagen {
+  width: 100%; /* La imagen ocupa todo el ancho del contenedor de la tarjeta */
+  height: 200px; /* Altura fija para uniformidad visual entre tarjetas */
+  object-fit: cover; /* Recorta la imagen para cubrir el área sin distorsionarla */
+  border-radius: 8px;
+  margin-bottom: 15px;
+  /* La imagen es la primera que se inserta en la tarjeta (Receta.jsx) */
+}
+
+/* Título de la Receta */
+.receta-card h1 {
+  font-size: 1.8em;
+  color: #a0522d;
+  font-weight: 700;
+  margin-top: 0;
+  border-bottom: 2px solid #f9f9f9;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+/* Tiempo de Preparación y Dificultad */
+.receta-card p:first-of-type {
+  font-size: 0.95em;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* ------------------------------------- */
+/* Secciones de la Receta (Ingredientes/Preparación) */
+/* ------------------------------------- */
+.ingredientes,
+.utensilios,
+.preparacion {
+  margin-top: 25px;
+  padding-top: 15px;
+  border-top: 1px dashed #e0e0e0;
+}
+
+.ingredientes h3,
+.utensilios h4,
+.preparacion h3 {
+  color: #555;
+  font-size: 1.3em;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+/* Listado de Ingredientes */
+.ingredientes ul {
+  list-style: disc outside;
+  padding-left: 20px;
+}
+
+.ingredientes li {
+  margin-bottom: 5px;
+  color: #444;
+}
+
+/* Preparación (Contenido pasado como children) */
+.preparacion p {
+  line-height: 1.7;
+  text-align: justify;
+}
+
+/* Componente Utensilios (Contenedor) */
+.utensilios {
+  /* No se usa el borde azul didáctico, se usa un fondo sutil */
+  background-color: #fcf8f4; 
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.utensilios ul {
+  list-style: none;
+  padding: 0;
+  display: flex; /* Muestra los utensilios en línea */
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+/* Componente Utensilio (Elemento de lista) */
+.utensilios li {
+  /* Estilo de "Chip" o Etiqueta */
+  background-color: #a0522d; 
+  color: white;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 0.85em;
+  font-weight: 500;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}

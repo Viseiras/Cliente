@@ -1,0 +1,7 @@
+/* Estilos Generales para la Aplicación */
+.App {
+  padding: 40px 20px;
+  background-color: #fcfcfc; /* Blanco roto, limpio */
+  font-family: 'Helvetica Neue', Arial, sans-serif; /* Tipografía limpia */
+  color: #333;
+}
