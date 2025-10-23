@@ -1,0 +1,48 @@
+.primero{
+    background-color: red;
+    height: 5rem;
+    width: 70%;
+    border-style: groove;
+    border-radius: 1px;
+    border-color: black;
+}
+
+.segundo{
+    background-color: green;
+    height: 4rem;
+    width: 20%;
+    border-style: dotted;
+    border-radius: 1px;
+    border-color: black;
+}
+
+.tercero{
+    background-color: cyan;    
+    height: 7rem;
+    width: 100%;
+    border-style: dashed;
+    border-radius: 1px;
+    border-color: black;
+}
+
+.cuarto{
+    background-color: orange;
+    height: 1rem;
+    width: 40%;
+    border-style: solid;
+    border-radius: 1px;
+    border-color: black;
+}
+
+.quinto{
+    background-color: purple;
+    height: 3rem;
+    width: 33%;
+    border-style: double;
+    border-radius: 1px;
+    border-color: black;
+}
+
+.oculto{
+    visibility: hidden;
+}

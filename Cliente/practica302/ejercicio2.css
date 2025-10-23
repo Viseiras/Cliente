@@ -1,0 +1,12 @@
+.primo{
+    background-color: red;
+    font-weight: 700;
+}
+
+table{
+    margin-top: 2rem;
+    border-radius: 1px;
+    border-color: black;
+    border-style: solid;
+    text-align: center;
+}
