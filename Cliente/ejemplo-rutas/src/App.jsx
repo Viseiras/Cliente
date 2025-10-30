@@ -3,6 +3,8 @@ import modulosData from "./data/modulosData";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 import Dashboard from "./views/Dashboard";
+import Mantenimiento from "./views/Mantenimiento";
+import Modulos from "./views/Modulos";
 
 function App() {
 
@@ -13,6 +15,8 @@ function App() {
         <Routes>
           <Route path="/"/>
             <Route index element={<Dashboard/>}/>
+            <Route path="mantenimiento" element={<Mantenimiento/>}/>
+            <Route path="modulos" element={<Modulos modulos={modulosData}/>}/>
         </Routes>
         <Footer />
       </BrowserRouter>
