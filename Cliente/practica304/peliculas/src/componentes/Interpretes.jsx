@@ -4,11 +4,19 @@ import Interprete from "./Interprete";
 function Interpretes(props){
     const actores = props.actores;
     return(
-        <ul className="elenco">
-            {actores.map(actor=>(
-                <li><Interprete key={generarUuidAleatorio()} foto={actor.imagen} nombre={actor.nombre}>{actor.biografia}</Interprete></li>
-            ))}
-        </ul>
+        <div>
+            <h3>Elenco</h3>
+            <ul className="elenco">
+                {actores.map(actor=>(
+                    <Interprete 
+                        key={generarUuidAleatorio()} 
+                        foto={actor.imagen} 
+                        nombre={actor.nombre}>
+                        {actor.biografia}
+                    </Interprete>
+                ))}
+            </ul>
+        </div>
     );
 }
 
