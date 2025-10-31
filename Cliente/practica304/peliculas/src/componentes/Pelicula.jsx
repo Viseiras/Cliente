@@ -3,11 +3,12 @@ import Interpretes from "./Interpretes";
 function Pelicula(props){
 
     return (
-    <li className='bloque-pelicula'>
-      <h2>{props.nombre}</h2>
-        <img className="bloque-pelicula__cartelera" src={props.cartelera} alt={`Imagen de ${props.nombre}`}/>
-        <p className='bloque-pelicula__texto'>{props.children}</p>
-
+    <li className='pelicula'>
+      <h2 className="titulo">{props.nombre}</h2>
+      <div className="pelicula-contenido">
+        <img className="cartel" src={props.cartelera} alt={`Imagen de ${props.nombre}`}/>
+        <p className='resumen'>{props.children}</p>
+      </div>
         <Interpretes actores={props.actores}/>
     </li>
   )

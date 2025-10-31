@@ -5,7 +5,7 @@ function Peliculas(props){
 
     return (
         <div>
-            <ul>
+            <ul className="peliculas">
                 {peliculas.map(pelicula => (
                     <Pelicula key={pelicula.id} nombre={pelicula.nombre} cartelera={pelicula.cartelera} actores={pelicula.actores}>{pelicula.resumen}</Pelicula>
                 ))}    
