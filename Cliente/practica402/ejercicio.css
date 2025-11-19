@@ -1,0 +1,39 @@
+.celdas_3x3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas iguales */
+    grid-template-rows: repeat(3, 1fr);    /* 3 filas iguales */
+    width: 54rem; 
+    height: 36rem; 
+    padding: 0 2rem;
+}
+
+.celdas_3x3 div {
+    border: 1px solid black; 
+    background-color: lightgrey;
+}
+
+.celdas_3x3 div img {
+    width: 18rem; 
+    height: 12rem;
+}
+
+main{
+    display: flex;
+    padding-bottom: 4rem;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#cartelVictoria{
+    font-size: 3rem;
+    color: green;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    display: none;
+}

@@ -1,0 +1,25 @@
+.divRespuestas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.errores{
+    font-weight: 700;
+    color: red;
+}
+
+.campoErroneo{
+    border-radius: 2px;
+    border-color: red;
+    color: red;
+}
+
+.respuestas *{
+    margin: 0.2rem;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}

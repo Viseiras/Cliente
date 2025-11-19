@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3</title>
+    <link rel="stylesheet" href="ejercicio3.css">
+</head>
+<body>
+    <form action="submit" id="formularioDisco">
+        <label for="nombre">Nombre del disco*:</label>
+        <input id="nombre" type="text" placeholder="Sins of the father">
+        <label for="cantante">Interprete*:</label>
+        <input id="cantante" type="text" placeholder="Donna Burke">
+        <label for="publicacion">Año de publicacion:</label>
+        <input id="publicacion" type="text" placeholder="2015">
+        <label for="tipo">Tipo de música:</label>
+        <select name="selector de tipo" id="tipo">
+            <option value="">Tipo...</option>
+            <option value="rock">Rock</option>
+            <option value="progressive">Progressive</option>
+            <option value="punk">Punk</option>
+            <option value="trash">Trash</option>
+        </select>
+        <label for="localizacion">Localización:</label>
+        <input id="localizacion" type="text" placeholder="B0123K233">
+        <label for="prestado">¿Prestado?</label>
+        <input id="prestado" type="checkbox">
+        <time datetime=""></time>
+        <button type="submit">Guardar</button>
+    </form>
+
+    <button type="button" id="btnMostrar">Mostrar todos los discos</button>
+    <div id="divMostrar"></div>
+    <script type="module" src="ejercicio3.js"></script>
+</body>
+</html>

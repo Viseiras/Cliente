@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de formularios</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <form action="submit" id="formGenerador">
+        <select name="TipoInput" id="selectInput">
+            <option value="">Tipo de input...</option>
+            <option value="text">Texto</option>
+            <option value="password">Constraseña</option>
+            <option value="textarea">Textarea</option>
+            <option value="label">Label</option>
+            <option value="image">Imagen</option>
+            <option value="check">Checkbox</option>
+            <option value="radio">Radio</option>
+            <option value="button">Botón</option>
+        </select>
+        <button type="submit" id="btnEnviar">Guardar</button>
+    </form>
+    <div id="informacionAdicional"></div>
+    <div id="divRespuestas" class="divRespuestas">
+        <div id="divResultados" class="respuestas"></div>
+        <div id="divErrores" class="errores"></div>
+    </div>
+    <script type="module" src="./js/main.js"></script>
+</body>
+</html>
