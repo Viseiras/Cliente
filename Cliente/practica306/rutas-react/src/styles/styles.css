@@ -1,0 +1,161 @@
+body, html, #root {
+  margin: 0;        /* eliminar márgenes por defecto */
+  padding: 0;       /* eliminar padding por defecto */
+  width: 100vw;     /* ancho = 100% del viewport */
+  height: 100vh;    /* alto = 100% del viewport */
+}
+
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* ocupa toda la pantalla */
+  text-align: center;
+  width: 100%;
+}
+
+.header {
+  background-color: #282c34;
+  color: white;
+  text-align: center;
+  width: 100%;
+  padding: 10px 0;
+}
+
+.menu {
+  padding: 15px;
+  justify-content: center;
+}
+
+.menu-lista {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  list-style: none;
+  justify-content: center;
+}
+
+.contenido {
+  max-width: 800px;
+  margin: 0 auto;
+  flex: 1; /* ocupa el espacio restante para empujar el footer abajo si hay poco contenido */
+  padding: 20px 0;
+}
+
+.footer {
+  background-color: #282c34;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  width: 100%;
+}
+
+/* Películas */
+.peliculas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 0;
+  list-style: none;
+}
+
+.pelicula-item {
+  flex: 1 1 calc(50% - 20px); /* dos columnas */
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column; /* imagen arriba, texto abajo */
+  align-items: center;    /* centrar contenido */
+  gap: 10px;
+}
+
+.pelicula-item img {
+  width: 80%;  /* ancho de la imagen dentro del item */
+  height: auto;
+  border-radius: 5px;
+}
+
+.pelicula-item div {
+  width: 100%;
+}
+
+.pelicula-item h3 {
+  font-size: 1.2em;
+  margin: 0 0 10px 0;
+}
+
+.pelicula-item p {
+  font-size: 0.9em;
+  color: #555;
+  margin: 5px 0;
+}
+
+.interpretes {
+  display: flex;
+  flex-wrap: wrap;     
+  gap: 20px;            
+  padding: 0;
+  list-style: none;
+  justify-content: center;
+}
+
+.interpretes-item {
+  flex: 1 1 calc(50% - 20px); 
+  box-sizing: border-box;
+  background-color: antiquewhite;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;      
+  text-align: center;
+}
+
+.interpretes-item img {
+  width: 120px;       
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover; 
+  margin-bottom: 10px;
+}
+
+.interpretes-item h3 {
+  margin: 10px 0 5px 0;
+  font-size: 1em;
+}
+
+.interpretes-item p {
+  font-size: 0.9em;
+  color: #555;
+  margin: 3px 0;
+}
+
+.error-404{
+    background-color: #fcece9; /* Fondo rojo muy suave */
+    border: 1px solid #dc3545; /* Borde rojo */
+    color: #dc3545; /* Texto rojo */
+    padding: 2rem;
+    text-align: center;
+    margin: 2rem auto;
+    border-radius: 8px;
+    max-width: 600px;
+}
+
+.filtros{
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.filtros button{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #282c34;
+    color: white;
+}
